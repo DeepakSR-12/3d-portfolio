@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { styles } from "../styles";
 import { Link } from "react-router-dom";
 import { logo, menu, close } from "../assets";
-import { navLinks } from "../constants";
+import { navLinks, personal } from "../constants";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -22,8 +22,8 @@ const Navbar = () => {
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Deepak&nbsp;
-            <span className="hidden sm:block">| Rajkumar</span>
+            {personal.firstName}&nbsp;
+            <span className="hidden sm:block">| {personal.lastName}</span>
           </p>
         </Link>
 

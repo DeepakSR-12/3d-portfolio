@@ -2,6 +2,7 @@ import React from "react";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import { motion } from "framer-motion";
+import { personal } from "../constants";
 
 const Hero = () => {
   return (
@@ -16,7 +17,7 @@ const Hero = () => {
 
         <div>
           <h1 className={`text-white ${styles.heroHeadText}`}>
-            Hi I'm <span className="text-[#915EFF]">Deepak</span>
+            Hi I'm <span className="text-[#915EFF]">{personal.firstName}</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Based in Chennai. Full Stack Web Developer. I love coding, doing
