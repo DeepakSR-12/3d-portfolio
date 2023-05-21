@@ -15,13 +15,13 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  qapita,
+  freelancer,
+  tiger,
+  freshworks,
+  netflix,
+  hulu,
+  furniture,
   threejs,
 } from "../assets";
 
@@ -122,48 +122,46 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Senior Software Developer",
-    company_name: "Tiger Analytics",
-    icon: tesla,
+    title: "Full stack Developer",
+    company_name: "Qapita",
+    icon: qapita,
     iconBg: "#E6DEDD",
-    date: "Jul 2019 - Nov 2020",
+    date: "Feb 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      `Developed and delivered a full ﬂedged grant letter template application to ease the exercising grants and shares to the employees with the approval functionality included.`,
+      `Developed and delivered listed company feature conﬁguration to facilitate Fair Market Value calculation so that the shareholders can view their tax estimation during exercising their shares`,
+      `Modiﬁed the organisation's landing page with a conﬁgurable dashboard feature so that diﬀerent users (of diﬀerent roles) will have diﬀerent layout - customisation`,
+      `Segregated the entire organisation's stakeholders into two diﬀerent entities - Individual and Institutional, developed a conﬁguration pipeline so that the admin has full control.`,
     ],
   },
   {
     title: "Web Developer",
     company_name: "Freshworks",
-    icon: shopify,
+    icon: freshworks,
     iconBg: "#383E56",
-    date: "2020 - Jan 2022",
+    date: "Nov 2020 - Jan 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      `Reskinned entire organization's websites and played a major role in rebranding.`,
+      `Worked with a team of 20 developers to improve software capabilities for corporate clients`,
+      `Aided in training of new junior developers on HTML, Javascript and React platforms.`,
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Qapita",
-    icon: meta,
+    title: "Senior Software Engineer",
+    company_name: "Tiger Analytics",
+    icon: tiger,
     iconBg: "#E6DEDD",
-    date: "Feb 2022 - Present",
+    date: "Jul 2019 - Nov 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      `Designed, built and managed a pricing portal as a web developer, which is a system that supports thousands of users, with UI for dashboard and pricing performance graphs.`,
+      `Developed an optimizer module from scratch that utilizes data analytics code and yields results based on user inputs.`,
+      `Contributed to each project delivery phase (analysis, development, test) in diﬀerent roles.`,
     ],
   },
   {
     title: "Full stack Developer",
     company_name: "Freelancer",
-    icon: starbucks,
+    icon: freelancer,
     iconBg: "#383E56",
     date: "Jul 2019 - Present",
     points: [
@@ -177,57 +175,74 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    testimonial: `Deepak is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to us... I would definitely recommend.`,
+    name: "Swathi Reddy Dendi",
+    designation: "Senior React Developer",
+    company: "Tiger Analytics",
+    image: "",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    testimonial: `Learning with Deepak has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!`,
+    name: "Vijay K Y",
+    designation: "Frontend Developer",
+    company: "Gofrugal: Retail ERP Software",
+    image: "",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    testimonial: `Very helpful when building my website, I now have my e-commerce store built from scratch.`,
+    name: "Vijay Siva",
+    designation: "Network Engineer",
+    company: "TCS",
+    image: "",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "The Shop - An ecommerce Application",
+    description: `Developed a full ﬂedged ecommerce application with Nextjs, Tailwind CSS, Redux, Redux Saga, Stripe and Firebase (BaaS). This application has all the functionalities a regular ecommerce website has such as Authentication, Product listing, Add to cart, Checkout and Payment.`,
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: furniture,
+    source_code_link: "https://furniture-shop-mocha.vercel.app/",
+  },
+  {
+    name: "Netflix - Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs. Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed a netﬂix clone application with React js and ﬁrebase.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Firebase",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "TailwindCSS",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: netflix,
+    source_code_link: "https://netflix-clone-20646.web.app/",
   },
   {
-    name: "Job IT",
+    name: "Hulu - Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to search for various movies and stream them.",
     tags: [
       {
         name: "react",
@@ -238,33 +253,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "TailwindCSS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: hulu,
+    source_code_link: "https://hulu-deepaksr-12.vercel.app/",
   },
 ];
 

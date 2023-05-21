@@ -3,7 +3,7 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
+import link from "./link.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -21,14 +21,14 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import qapita from "./company/qapita.jpg";
+import freshworks from "./company/freshworks.jpeg";
+import tiger from "./company/tiger.png";
+import freelancer from "./company/freelancer.jpeg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import netflix from "./netflix.png";
+import hulu from "./hulu.png";
+import furniture from "./furniture.png";
 
 export {
   logo,
@@ -36,7 +36,7 @@ export {
   creator,
   mobile,
   web,
-  github,
+  link,
   menu,
   close,
   css,
@@ -52,11 +52,11 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  qapita,
+  freshworks,
+  freelancer,
+  tiger,
+  netflix,
+  hulu,
+  furniture,
 };
