@@ -41,6 +41,10 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "projects",
+    title: "Projects",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -176,14 +180,14 @@ const experiences = [
 const testimonials = [
   {
     testimonial: `Deepak is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to us... I would definitely recommend.`,
-    name: "Swathi Reddy Dendi",
+    name: "Keerthana R",
     designation: "Senior React Developer",
     company: "Tiger Analytics",
     image: "",
   },
   {
     testimonial: `Learning with Deepak has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!`,
-    name: "Vijay K Y",
+    name: "Aishwarya K",
     designation: "Frontend Developer",
     company: "Gofrugal: Retail ERP Software",
     image: "",

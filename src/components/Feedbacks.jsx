@@ -16,13 +16,13 @@ const FeedbackCard = ({
 }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className="bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full"
+    className="bg-black-200 p-10 rounded-3xl xl:w-[320px] w-full h-full flex flex-col"
   >
     <p className="text-white font-black text-[48px]">"</p>
 
-    <div className="mt-1">
-      <p className="text-white tracking-wider text-[18px]">{testimonial}</p>
+    <p className="text-white tracking-wider text-[18px]">{testimonial}</p>
 
+    <div className="mt-auto h-24">
       <div className="mt-7 flex justify-between items-center gap-1">
         <div className="flex-1 flex flex-col">
           <p className="text-white font-medium text-[16px]">
@@ -56,7 +56,10 @@ const Feedbacks = () => {
           <h2 className={styles.sectionHeadText}>Testimonials.</h2>
         </motion.div>
       </div>
-      <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
+
+      <div
+        className={`-mt-20 pb-14 xl:px-16 px-3 grid gap-5 md:grid-cols-2 lg:grid-cols-3`}
+      >
         {testimonials.map((testimonial, index) => (
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}
