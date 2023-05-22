@@ -30,7 +30,10 @@ import netflix from "./netflix.png";
 import hulu from "./hulu.png";
 import furniture from "./furniture.png";
 
+import resume from "./resume.pdf";
+
 export {
+  resume,
   logo,
   backend,
   creator,

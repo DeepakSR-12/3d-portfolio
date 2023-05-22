@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { styles } from "../styles";
 import { Link } from "react-router-dom";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, resume } from "../assets";
 import { navLinks, personal } from "../constants";
 
 const Navbar = () => {
@@ -36,7 +36,13 @@ const Navbar = () => {
               } `}
               onClick={() => setActive(nav.title)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <a
+                href={nav.id !== "resume" ? `#${nav.id}` : resume}
+                target={nav.id !== "resume" ? "_self" : "_blank"}
+                rel="noreferrer"
+              >
+                {nav.title}
+              </a>
             </li>
           ))}
         </ul>
