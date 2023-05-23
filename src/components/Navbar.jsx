@@ -27,7 +27,7 @@ const Navbar = () => {
           </p>
         </Link>
 
-        <ul className="hidden sm:flex list-none gap-10 flex-row">
+        <ul className="hidden nav:flex list-none gap-10 flex-row">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -37,8 +37,22 @@ const Navbar = () => {
               onClick={() => setActive(nav.title)}
             >
               <a
-                href={nav.id !== "resume" ? `#${nav.id}` : resume}
-                target={nav.id !== "resume" ? "_self" : "_blank"}
+                href={
+                  nav.id === "resume"
+                    ? resume
+                    : nav.id === "github"
+                    ? "https://github.com/DeepakSR-12"
+                    : nav.id === "linkedin"
+                    ? "https://www.linkedin.com/in/deepak-rajkumar-b71010168/"
+                    : `#${nav.id}`
+                }
+                target={
+                  nav.id === "resume" ||
+                  nav.id === "github" ||
+                  nav.id === "linkedin"
+                    ? "_blank"
+                    : "_self"
+                }
                 rel="noreferrer"
               >
                 {nav.title}
@@ -47,7 +61,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        <div className="nav:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
             alt="menu"
