@@ -22,6 +22,7 @@ import {
   netflix,
   hulu,
   furniture,
+  promptAi,
   threejs,
 } from "../assets";
 
@@ -235,25 +236,29 @@ const projects = [
     source_code_link: "https://furniture-shop-mocha.vercel.app/",
   },
   {
-    name: "Netflix - Clone",
+    name: "Prompt AI",
     description:
-      "Developed a netﬂix clone application with React js and ﬁrebase.",
+      "Your Best AI Assistant. Create content using AI 10x faster. The Best AI Tool for Photo Generation, Blog Writing, Mail Writing, Chatbot, Mail Writing and a lot more...",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "Firebase",
+        name: "Open AI",
         color: "green-text-gradient",
+      },
+      {
+        name: "Hugging Face",
+        color: "blue-text-gradient",
       },
       {
         name: "TailwindCSS",
         color: "pink-text-gradient",
       },
     ],
-    image: netflix,
-    source_code_link: "https://netflix-clone-20646.web.app/",
+    image: promptAi,
+    source_code_link: "https://prompt-genius-ai.vercel.app/",
   },
   {
     name: "Hulu - Clone",
