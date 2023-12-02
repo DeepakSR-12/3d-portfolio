@@ -17,14 +17,14 @@ const Hero = () => {
 
         <div>
           <h1 className={`text-white ${styles.heroHeadText}`}>
-            Hi I'm <span className="text-[#915EFF]">{personal.firstName}</span>
+            Hi I'm <span className="text-[#915EFF]">{personal.firstName}</span>{" "}
+            &nbsp;
+            <span className="text-[#915EFF]">{personal.lastName}.</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Based in Chennai. Full Stack Web Developer. I love coding,
-            doing&nbsp;
-            <br className="xl:block hidden" />
-            research and getting my hands dirty on creating many web/mobile
-            apps.
+            ✨ Based out of Chennai, India. <br /> ✨ Full Stack Web Developer.{" "}
+            <br /> ✨ Love coding, doing research and getting my hands dirty on
+            creating web and mobile apps.
           </p>
         </div>
       </div>

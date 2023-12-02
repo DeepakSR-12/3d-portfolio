@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { styles } from "../styles";
 import { Link } from "react-router-dom";
-import { logo, menu, close, resume } from "../assets";
+import { logo, menu, close } from "../assets";
 import { navLinks, personal } from "../constants";
 
 const Navbar = () => {
@@ -39,7 +39,7 @@ const Navbar = () => {
               <a
                 href={
                   nav.id === "resume"
-                    ? resume
+                    ? "https://drive.google.com/file/d/1TWSXwYH0lXrOQxunCp_vTIITBG4kWr4X/view?usp=sharing"
                     : nav.id === "github"
                     ? "https://github.com/DeepakSR-12"
                     : nav.id === "linkedin"

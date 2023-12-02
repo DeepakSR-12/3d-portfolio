@@ -19,17 +19,22 @@ import {
   freelancer,
   tiger,
   freshworks,
-  netflix,
+  tasker,
   hulu,
   furniture,
   promptAi,
   threejs,
+  jarvis,
+  fundFusion,
+  promptNative,
+  teachTok,
+  chatgpt,
 } from "../assets";
 
 export const personal = {
   firstName: "Deepak",
   lastName: "Rajkumar",
-  description: `I'm a skilled software developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!`,
+  description: `A seasoned and keen software developer with 5 years of experience in TypeScript, JavaScript, and expertise in frameworks like React, React Native, Node.js, and Next.js. I'm a quick learner and have the ability to create efficient, scalable, and user- friendly solutions for my clients that will aid in solving real-world problems.`,
 };
 
 export const navLinks = [
@@ -145,10 +150,12 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Feb 2022 - Present",
     points: [
-      `Developed and delivered a full ﬂedged grant letter template application to ease the exercising grants and shares to the employees with the approval functionality included.`,
-      `Developed and delivered listed company feature conﬁguration to facilitate Fair Market Value calculation so that the shareholders can view their tax estimation during exercising their shares`,
-      `Modiﬁed the organisation's landing page with a conﬁgurable dashboard feature so that diﬀerent users (of diﬀerent roles) will have diﬀerent layout - customisation`,
-      `Segregated the entire organisation's stakeholders into two diﬀerent entities - Individual and Institutional, developed a conﬁguration pipeline so that the admin has full control.`,
+      `Implemented payment gateway integration, enabling users to efficiently pay their exercise and tax amounts via NetBanking options.`,
+      `Developed and delivered a full fledged grant letter template application to ease the exercising grants and shares to the employees with the approval functionality included.`,
+      `Developed and delivered listed company feature configuration to facilitate Fair Market Value calculation so that the shareholders can view their tax estimation during exercising their shares`,
+      `Modified the organization's landing page with a configurable dashboard feature so that different users (of different roles) will have different layout - customization`,
+      `Segregated the entire organization's stakeholders into two different entities - Individual and Institutional, developed a configuration pipeline so that the admin has full control.`,
+      `Lead a team of five, guiding them to make optimal design decisions, actively share my expertise, fostering both individual and collective growth within the team.`,
     ],
   },
   {
@@ -216,33 +223,13 @@ const testimonials = [
 
 const projects = [
   {
-    name: "The Shop - An ecommerce Application",
-    description: `Developed a full ﬂedged ecommerce application with Nextjs, Tailwind CSS, Redux, Redux Saga, Stripe and Firebase (BaaS). This application has all the functionalities a regular ecommerce website has such as Authentication, Product listing, Add to cart, Checkout and Payment.`,
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "TailwindCSS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: furniture,
-    source_code_link: "https://furniture-shop-mocha.vercel.app/",
-  },
-  {
     name: "Prompt AI",
     description:
-      "Your Best AI Assistant. Create content using AI 10x faster. The Best AI Tool for Photo Generation, Blog Writing, Mail Writing, Chatbot, Mail Writing and a lot more...",
+      "Your Best AI Assistant. Create content using AI 10x faster. The Best AI Tool for Photo Generation, Blog Writing, Mail Writing, Chatbot, Mail Writing and a lot more! This powerful application leverages cutting-edge AI models from Open AI and Huggingface such as including GPT4, Riffusion, Stable Diffusion, Zeroscope, and more! ",
     tags: [
       {
         name: "Next.js",
-        color: "blue-text-gradient",
+        color: "pink-text-gradient",
       },
       {
         name: "Open AI",
@@ -256,9 +243,268 @@ const projects = [
         name: "TailwindCSS",
         color: "pink-text-gradient",
       },
+      {
+        name: "Clerk",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Shadcn/ui",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Crisp",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "blue-text-gradient",
+      },
     ],
     image: promptAi,
     source_code_link: "https://prompt-genius-ai.vercel.app/",
+  },
+  {
+    name: "Tasker",
+    description: `Introducing Tasker: The Ultimate Productivity App - where cutting-edge technology seamlessly integrates with your daily tasks, revolutionizing the way you organize and tackle your workload. Explore the power of the Tasker. Whip your tasks into shape, where productivity meets pure technology!`,
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Appwrite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "drag and drop",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Zustand",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "GPT4",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: tasker,
+    source_code_link: "https://tasker-activity-manager.vercel.app/",
+  },
+  {
+    name: "Fund Fusion",
+    description: `A web3 crowdfunding platform built using thirdweb, React.js, TailwindCSS and MetaMask.`,
+    tags: [
+      {
+        name: "Web3",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ReactJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MetaMask",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Ethers",
+        color: "green-text-gradient",
+      },
+    ],
+    image: fundFusion,
+    source_code_link: "https://fund-fusion-tau.vercel.app/",
+  },
+  {
+    name: "AI Assistant - iOS/Android",
+    description:
+      "Prompt AI Application on Mobile (iOS and Android). A mobile app seamlessly perform as Chatbot, Writes blog, etc.",
+    tags: [
+      {
+        name: "React Native",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Open AI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Hugging Face",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "iOS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Android",
+        color: "green-text-gradient",
+      },
+    ],
+    image: promptNative,
+    source_code_link: "https://github.com/DeepakSR-12/prompt-ai-react-native",
+  },
+  {
+    name: "TeachTok",
+    description:
+      "A pioneer in education space, offering users bite-sized educational content in an engaging format, like TikTok.",
+    tags: [
+      {
+        name: "React Native",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "iOS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Android",
+        color: "green-text-gradient",
+      },
+    ],
+    image: teachTok,
+    source_code_link: "https://github.com/DeepakSR-12/teach-tok",
+  },
+  {
+    name: "ChatGPT - Chatbot",
+    description:
+      "A ChatGPT clone built using Next.js, Tailwind CSS, OpenAI API, which acts as a powerful copilot and wears multiple hats.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Open AI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Hugging Face",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: chatgpt,
+    source_code_link: "https://chatgpt-chatbot.vercel.app/",
+  },
+  {
+    name: "The Shop - An ecommerce Application",
+    description: `Developed a full fledged ecommerce application with Next.js, Tailwind CSS, Redux, Redux Saga, Stripe and Firebase (BaaS). This application has all the functionalities a regular e-commerce website has such as Authentication, Product listing, Add to cart, Checkout and Payment.`,
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux Saga",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: furniture,
+    source_code_link: "https://furniture-shop-mocha.vercel.app/",
+  },
+  {
+    name: "Jarvis AI",
+    description: `Jarvis AI, a powerful Chrome extension, serves as your indispensable AI assistant, elevating your productivity across diverse tasks. From crafting engaging blog posts to seamless language translation and even generating efficient code snippets, Jarvis AI is your all-in-one solution for unlocking creativity and efficiency in your digital endeavors.`,
+    tags: [
+      {
+        name: "Javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AI/ML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ReactJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "manifest",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jarvis,
+    source_code_link: "https://github.com/DeepakSR-12/jarvis-ai",
   },
   {
     name: "Hulu - Clone",

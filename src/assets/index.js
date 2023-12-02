@@ -26,15 +26,17 @@ import freshworks from "./company/freshworks.jpeg";
 import tiger from "./company/tiger.png";
 import freelancer from "./company/freelancer.jpeg";
 
-import netflix from "./netflix.png";
+import tasker from "./tasker.png";
 import hulu from "./hulu.png";
 import furniture from "./furniture.png";
 import promptAi from "./prompt-ai.png";
-
-import resume from "./resume.pdf";
+import jarvis from "./jarvis.png";
+import fundFusion from "./fund-fusion.png";
+import chatgpt from "./chatgpt.png";
+import promptNative from "./prompt-native.png";
+import teachTok from "./teach-tok.png";
 
 export {
-  resume,
   logo,
   backend,
   creator,
@@ -60,8 +62,13 @@ export {
   freshworks,
   freelancer,
   tiger,
-  netflix,
+  tasker,
   hulu,
   furniture,
   promptAi,
+  jarvis,
+  fundFusion,
+  chatgpt,
+  promptNative,
+  teachTok,
 };
